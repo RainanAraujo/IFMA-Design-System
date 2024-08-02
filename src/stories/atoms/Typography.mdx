@@ -1,0 +1,103 @@
+{/* Typography.mdx */}
+
+import { Meta, Typeset } from "@storybook/blocks";
+
+<Meta title="Typography" />
+
+export const typography = {
+  type: {
+    primary: '"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
+  },
+  weight: {
+    regular: "400",
+    bold: "700",
+    semibold: "600",
+  },
+  size: {
+    large: 18,
+    medium: 16,
+    small: 14,
+    xSmall: 12,
+    dLarge: 96,
+    dMedium: 52,
+    dSmall: 44,
+    dXSmall: 36,
+    h1: 40,
+    h2: 36,
+    h3: 32,
+    h4: 28,
+    h5: 24,
+    h6: 20,
+  },
+};
+
+export const SampleText =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+**Font:** Open Sans
+**Type:** Display
+**Weights:** 400(regular), 700(bold), 600(semibold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.dLarge),
+    Number(typography.size.dMedium),
+    Number(typography.size.dSmall),
+    Number(typography.size.dXSmall),
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+**Font:** Open Sans
+**Type:** Headline
+**Weights:** 400(regular), 700(bold), 600(semibold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.h1),
+    Number(typography.size.h2),
+    Number(typography.size.h3),
+    Number(typography.size.h4),
+    Number(typography.size.h5),
+    Number(typography.size.h6),
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+**Font:** Open Sans
+**Type:** Label
+**Weights:** 400(regular), 700(bold), 600(semibold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.large),
+    Number(typography.size.medium),
+    Number(typography.size.small),
+    Number(typography.size.xSmall),
+
+]}
+fontWeight={typography.weight.semibold}
+sampleText={SampleText}
+fontFamily={typography.type.primary}
+/>
+
+**Font:** Open Sans
+**Type:** Body
+**Weights:** 400(regular), 700(bold), 600(semibold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.large),
+    Number(typography.size.medium),
+    Number(typography.size.small),
+    Number(typography.size.xSmall),
+
+]}
+fontWeight={typography.weight.regular}
+sampleText={SampleText}
+fontFamily={typography.type.primary}
+/>
