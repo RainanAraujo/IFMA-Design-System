@@ -2,6 +2,7 @@
   "name": "ifma-design-system",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://rainanaraujo.github.io/IFMA-Design-System/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +10,6 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "predeploy": "npm run build && npm run build-storybook",
     "build-storybook": "storybook build"
   },
   "dependencies": {
