@@ -1,5 +1,10 @@
 import type { StorybookConfig } from "@storybook/react-vite";
 
+module.exports = {
+  staticDirs: ["../public"],
+  basePath: "/storybook",
+};
+
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
   addons: [
