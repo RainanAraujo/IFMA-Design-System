@@ -1,1 +1,0 @@
-import{j as t}from"./jsx-runtime-j_jdvEMj.js";import{c as i}from"./cn-DHkRjjEP.js";const r=({className:n,...e})=>t.jsx("a",{className:i(" text-blue-500 underline flex gap-2 items-center duration-100",n),...e,children:e.children});r.__docgenInfo={description:"",methods:[],displayName:"Link"};export{r as L};
