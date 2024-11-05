@@ -29,9 +29,11 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Button variant="outline" size="small">
-                  Storybook
-                </Button>
+                <Link href="/storybook" className="no-underline">
+                  <Button variant="outline" size="small">
+                    Storybook
+                  </Button>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -44,7 +46,7 @@ function App() {
             Promovendo a identidade visual do IFMA com objetivo de melhorar a usabilidade dos sistemas digitais
             desenvolvidos na instituição
           </p>
-          <Link href="https://www.instagram.com/ifmacampuscaxias/" target="_blank" className="no-underline">
+          <Link href="/storybook" className="no-underline">
             <Button>Documentação</Button>
           </Link>
         </div>
@@ -55,7 +57,7 @@ function App() {
           <div className="flex w-full items-center justify-between">
             <h1 className="text-xl">Logo</h1>
             <div className="flex items-center gap-2">
-              <Link href="/storybook" className="no-underline">
+              <Link href="https://www.instagram.com/ifmacampuscaxias/" target="_blank" className="no-underline">
                 <Button variant="ghost" size="large" noPadding>
                   <InstagramLogo />
                 </Button>
