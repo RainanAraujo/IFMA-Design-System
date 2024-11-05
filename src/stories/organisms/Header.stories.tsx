@@ -12,7 +12,7 @@ export const Header = () => {
   return (
     <header className="flex w-full bg-gray-100 ">
       <div className="flex items-center m-auto justify-between w-full max-w-7xl p-4 px-4 gap-6">
-        <img src="/logo.svg" alt="Logo" width={100} height={100} />
+        <span>Element</span>
         <nav>
           <ul className="flex gap-4 items-center">
             <li>
