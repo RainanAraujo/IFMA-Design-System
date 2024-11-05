@@ -5,7 +5,7 @@ export default create({
   brandTitle: "IFMA Design System Storybook",
   fontBase: '"Open Sans", sans-serif',
   brandUrl: "https://rainanaraujo.github.io/IFMA-Design-System/",
-  brandImage: "https://raw.githubusercontent.com/RainanAraujo/IFMA-Design-System/668b42a0c4b01ccefc1a2106e3a242c7222391c0/public/logo.svg",
+  brandImage: "https://rainanaraujo.github.io/IFMA-Design-System/logo.svg",
   brandTarget: '_self',
   //
   colorPrimary: '#5EAF3C',
