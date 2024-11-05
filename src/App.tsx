@@ -29,7 +29,7 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link href="/storybook" className="no-underline">
+                <Link href="./storybook" className="no-underline">
                   <Button variant="outline" size="small">
                     Storybook
                   </Button>
@@ -46,7 +46,7 @@ function App() {
             Promovendo a identidade visual do IFMA com objetivo de melhorar a usabilidade dos sistemas digitais
             desenvolvidos na instituição
           </p>
-          <Link href="/storybook" className="no-underline">
+          <Link href="./storybook" className="no-underline">
             <Button>Documentação</Button>
           </Link>
         </div>
