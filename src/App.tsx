@@ -7,7 +7,7 @@ function App() {
     <div className="flex flex-col w-full h-dvh">
       <header className="flex w-full  bg-gray-100 ">
         <div className="flex items-center m-auto justify-between w-full max-w-7xl p-4 px-4 gap-6">
-          <h1 className="text-xl">Logo</h1>
+          <img src="/logo.svg" alt="Logo" width={100} height={100} />
           <nav>
             <ul className="flex gap-4 items-center">
               <li>
@@ -39,7 +39,8 @@ function App() {
           </nav>
         </div>
       </header>
-      <main className="flex flex-col items-center justify-center w-full p-20 gap-8 h-full">
+      <main className="flex flex-col items-center justify-center w-full p-20 gap-2 h-full">
+        <img src="/iconLogo.svg" alt="Logo" width={100} height={100} />
         <div className="flex flex-col items-center ">
           <h1 className="text-dMedium font-bold mb-4">IFMA Design System</h1>
           <p className="text-medium mb-4 max-w-[560px] text-center">
@@ -55,7 +56,7 @@ function App() {
       <footer className="flex  w-full  bg-gray-100 ">
         <div className="flex flex-col items-center m-auto justify-between w-full max-w-7xl p-4 px-4 gap-4">
           <div className="flex w-full items-center justify-between">
-            <h1 className="text-xl">Logo</h1>
+            <img src="/iconLogo.svg" alt="Logo" width={32} height={32} />
             <div className="flex items-center gap-2">
               <Link href="https://www.instagram.com/ifmacampuscaxias/" target="_blank" className="no-underline">
                 <Button variant="ghost" size="large" noPadding>
