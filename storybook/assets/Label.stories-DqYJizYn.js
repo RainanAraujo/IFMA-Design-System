@@ -1,0 +1,3 @@
+import{j as m}from"./jsx-runtime-j_jdvEMj.js";import{L as s}from"./Label-B4RhECvQ.js";import"./index-B-o1Wr-g.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./cn-DHkRjjEP.js";const i={title:"Atoms/Label",component:s,parameters:{layout:"centered"},argTypes:{className:{control:{disable:!0}}}},e={render:o=>m.jsx(s,{...o,children:"Label"})};var r,a,t;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  render: args => <Label {...args}>Label</Label>
+}`,...(t=(a=e.parameters)==null?void 0:a.docs)==null?void 0:t.source}}};const u=["Default"];export{e as Default,u as __namedExportsOrder,i as default};
