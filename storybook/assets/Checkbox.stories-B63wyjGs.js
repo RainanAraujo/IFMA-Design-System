@@ -1,0 +1,3 @@
+import{j as m}from"./jsx-runtime-j_jdvEMj.js";import{C as t}from"./Checkbox-BF0orITF.js";import"./index-B-o1Wr-g.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./cn-DHkRjjEP.js";import"./Check-BQ_S7eJn.js";import"./IconBase-BiRCNEL7.js";const x={title:"Atoms/Checkbox",component:t,parameters:{layout:"centered"},argTypes:{className:{control:{disable:!0}}},args:{disabled:!1,checked:!1}},e={render:a=>m.jsx(t,{...a})};var r,o,s;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  render: args => <Checkbox {...args} />
+}`,...(s=(o=e.parameters)==null?void 0:o.docs)==null?void 0:s.source}}};const f=["Default"];export{e as Default,f as __namedExportsOrder,x as default};
