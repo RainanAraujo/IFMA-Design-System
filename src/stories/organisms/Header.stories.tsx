@@ -10,9 +10,9 @@ export default {
 
 export const Header = () => {
   return (
-    <header className="flex w-full  bg-gray-100 ">
+    <header className="flex w-full bg-gray-100 ">
       <div className="flex items-center m-auto justify-between w-full max-w-7xl p-4 px-4 gap-6">
-        <h1 className="text-xl">Logo</h1>
+        <img src="/logo.svg" alt="Logo" width={100} height={100} />
         <nav>
           <ul className="flex gap-4 items-center">
             <li>
