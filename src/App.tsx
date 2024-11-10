@@ -42,8 +42,8 @@ function App() {
       <main className="flex flex-col items-center justify-center w-full p-20 gap-2 h-full">
         <img src="./iconLogo.svg" alt="Logo" width={100} height={100} />
         <div className="flex flex-col items-center ">
-          <h1 className="text-dMedium font-bold mb-4">IFMA Design System</h1>
-          <p className="text-medium mb-4 max-w-[560px] text-center">
+          <h1 className="text-dMedium font-bold mb-4 text-center leading-[50px]">IFMA Design System</h1>
+          <p className="text-medium mb-4 max-w-[560px] text-center text-gray-700">
             Promovendo a identidade visual do IFMA com objetivo de melhorar a usabilidade dos sistemas digitais
             desenvolvidos na instituição
           </p>
